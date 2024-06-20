@@ -3,12 +3,14 @@
 <launch>
   <arg name="gui" default="true"/>
   <arg name="world_name" default="terrain_1"/>
+  <arg name="prueba" default="$(find gazebo_terrain_tutorial)/Waypoints/prueba.urdf"/>
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="world_name" value="$(find gazebo_terrain_tutorial)/worlds/$(arg world_name).world"/>
     <arg name="gui" value="$(arg gui)"/>
   </include>
   
+          
 
 </launch>
 

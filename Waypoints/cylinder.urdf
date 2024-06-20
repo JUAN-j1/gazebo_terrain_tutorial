@@ -1,0 +1,19 @@
+<link name="base_link">
+   2     <visual>
+   3       <geometry>
+   4         <cylinder length="0.6" radius="0.2"/>
+   5       </geometry>
+   6       <material name="blue">
+   7         <color rgba="0 0 .8 1"/>
+   8       </material>
+   9     </visual>
+  10     <collision>
+  11       <geometry>
+  12         <cylinder length="0.6" radius="0.2"/>
+  13       </geometry>
+  14     </collision>
+  15     <inertial>
+  16       <mass value="10"/>
+  17       <inertia ixx="0.4" ixy="0.0" ixz="0.0" iyy="0.4" iyz="0.0" izz="0.2"/>
+  18     </inertial>
+  19   </link>
